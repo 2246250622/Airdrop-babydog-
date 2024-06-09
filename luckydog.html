@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Always open Accordion</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+    <embed type="text/html" src="nav.html" style="width:100%">
+    
+
+
+    <h2 class="text-center">
+        Bootstrap 5 Accordion
+    </h2>
+
+    <div class="container mt-5">
+        <div class="accordion" id="ao-accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" 
+                    id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" 
+                            type="button" 
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" 
+                            aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                        HTML
+                    </button>
+                </h2>
+
+                <div id="panelsStayOpen-collapseOne" 
+                     class="accordion-collapse collapse show"
+                     aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        HTML is a markup
+                        language that helps in
+                        creating a structure
+                        of a web page.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" 
+                    id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" 
+                            type="button" 
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" 
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                        CSS
+                    </button>
+                </h2>
+
+                <div id="panelsStayOpen-collapseTwo" 
+                     class="accordion-collapse collapse"
+                     aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        CSS is a language used
+                        to style the structure
+                        of a webpage, like
+                        styling HTML document.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src=
+"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
