@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Webhook Example</title>
+</head>
+<body>
+    <button onclick="sendMessage()">Send Message</button>
+
+    <script>
+        function sendMessage() {
+            const webhookUrl = 'https://discord.com/api/webhooks/1104429694356557925/HJj5bgAGMmtvr6QbZP-kYKFCGbaoDc2x5gQL2n6E-dd_m-WaJ5S9PXf4yb6kL7mqelQh'; // Replace with your actual webhook URL
+
+            const data = {
+                content: '<@1024732778991984821> 滾出來!', // Your message here
+                username: 'Luckydog', // Optional: Set a custom username
+                avatar_url: 'https://cdn.discordapp.com/attachments/1114568807588057280/1249414047896440883/2hYJiL9S_400x400.png?ex=66673702&is=6665e582&hm=69b8e259e904bcd2e091f1864116d4a77d2e595b8de81957e4cf87ffb09899e1&', // Optional: Set a custom avatar image
+            };
+
+            fetch(webhookUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+            .then(response => {
+                if (response.ok) {
+                    console.log('Message sent successfully!');
+                } else {
+                    console.error('Error sending message:', response.statusText);
+                }
+            })
+            .catch(error => {
+                console.error('Error sending message:', error);
+            });
+        }
+    </script>
+</body>
+</html>
