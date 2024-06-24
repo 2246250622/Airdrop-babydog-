@@ -64,7 +64,7 @@
               </span>
             </button>
             <button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target="#staticBackdrop">挖礦/節點/質押⛏️</button>
-            <button type="button" class="btn btn-outline-custom" onclick="openNewTab()">加密貨幣轉換器⚡</button>
+            <button type="button" class="btn btn-outline-custom" onclick='location.href="Converter.html"'>加密貨幣轉換器⚡</button>
             
             <button type="button" class="btn btn-outline-custom" id="staticBackdropLabel" onclick="sendMessage()">暴力呼叫BaBy仔😠</button>
           
@@ -293,12 +293,6 @@
   });
   
   </script>
-  <script>
-      function openNewTab() {
-        var win = window.open("Converter.html", "_blank");
-        win.focus();
-      }
-      </script>
        <script>
           function sendMessage() {
               const webhookUrl = 'https://discord.com/api/webhooks/1104429694356557925/HJj5bgAGMmtvr6QbZP-kYKFCGbaoDc2x5gQL2n6E-dd_m-WaJ5S9PXf4yb6kL7mqelQh'; // Replace with your actual webhook URL
