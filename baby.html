@@ -198,6 +198,68 @@
         空投清單 
     </h2>
 
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Study</button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Word Bank</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Word Generator</title>
+</head>
+<body>
+  <button class="btn btn-primary" id="generateWord">Generate Random Words</button>
+  <p>English Word: <span id="englishWord"></span><button  id="speakWord">Speak English Word</button></p>
+  <p>Chinese Word: <span id="chineseWord"></span></p>
+
+  <script>
+      document.getElementById('generateWord').addEventListener('click', function() {
+          // Fetch English word
+          fetch('https://random-word-api.herokuapp.com/word')
+              .then(response => response.json())
+              .then(data => {
+                  document.getElementById('englishWord').innerText = data[0];
+              })
+              .catch(error => {
+                  console.error('Error fetching the English word:', error);
+              });
+
+          // Fetch Chinese word
+          fetch('https://random-word-api.herokuapp.com/word?lang=zh')
+              .then(response => response.json())
+              .then(data => {
+                  document.getElementById('chineseWord').innerText = data[0];
+              })
+              .catch(error => {
+                  console.error('Error fetching the Chinese word:', error);
+              });
+      });
+
+      document.getElementById('speakWord').addEventListener('click', function() {
+          const englishWord = document.getElementById('englishWord').innerText;
+          if (englishWord) {
+              const utterance = new SpeechSynthesisUtterance(englishWord);
+              speechSynthesis.speak(utterance);
+          } else {
+              alert('Please generate an English word first.');
+          }
+      });
+  </script>
+</body>
+</html>
+
+
+    </p>
+  </div>
+</div>
+
     <div class="container mt-5">
         <div class="accordion" id="ao-accordion">
             <div class="accordion-item">
