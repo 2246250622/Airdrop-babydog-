@@ -7,185 +7,181 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="May.png">
+    <link rel="icon" type="image/x-icon" href="IMG_3755.jpg">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
-
-    <style>
-.btn-outline-custom {
-  --bs-btn-color: #343a40;
-  --bs-btn-bg: #DCBFFF; /* Purple */
-  --bs-btn-border-color: #DCBFFF;
-  --bs-btn-hover-color: #343a40;
-  --bs-btn-hover-bg: #E5D4FF;
-  --bs-btn-hover-border-color: #E5D4FF;
-  --bs-btn-active-color: #343a40;
-  --bs-btn-active-bg: #E5D4FF;
-  --bs-btn-active-border-color: #E5D4FF;
-}
-      </style>
     
-
+    <style>
+      .btn-outline-custom {
+        --bs-btn-color: #343a40;
+        --bs-btn-bg: #DCBFFF; /* Purple */
+        --bs-btn-border-color: #DCBFFF;
+        --bs-btn-hover-color: #343a40;
+        --bs-btn-hover-bg: #E5D4FF;
+        --bs-btn-hover-border-color: #E5D4FF;
+        --bs-btn-active-color: #343a40;
+        --bs-btn-active-bg: #E5D4FF;
+        --bs-btn-active-border-color: #E5D4FF;
+      }
+            </style>
    
 </head>
 
 <body>
-    <main>
-      <header class="p-3 mb-3 border-bottom" style="background-color: #D0A2F7">
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-            </a>
-    
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><b><a href="baby.html" class="nav-link px-2 link-body-emphasis">空投清單</a></b></li>
-    
-            </ul>
-    
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-              <button type="button" class="btn btn-outline-custom position-relative" onclick='window.open("https:\/\/mail.google.com/mail/u/0/#inbox", "_blank")' >
-                Gmail
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
-                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
-                </svg>
-              </button>
-              <button type="button" class="btn btn-outline-custom position-relative" onclick='window.open("https:\/\/x.com/home", "_blank")' >
-                Twitter
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 6.7 0 0 0 16 3.542a6.7 6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 3.2 0 0 1-.865.115 3 3 3 0 0 1-.614-.057 3.28 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 6.6 0 0 1 .78 13.58a6 6 6 0 0 1-.78-.045A9.34 9.34 9.34 0 0 0 5.026 15"/>
-                </svg>
-              </button>
-              <button type="button" class="btn btn-outline-custom position-relative" onclick='window.open("https:\/\/discord.com/channels/@me", "_blank")' >
-                Discord
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
-                  <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
-                </svg>
-              </button>
 
-              <button type="button" class="btn btn-outline-custom" onclick='location.href="faucet.html"'>水龍頭🚰</button>
-              
-              <button type="button" class="btn btn-outline-custom position-relative" onclick='window.open("https:\/\/app.galxe.com/quest/explore/following", "_blank")'>
-                Galxe
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
-                  <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"></path>
-                </svg>
-                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-                  <span class="visually-hidden">New alerts</span>
-                </span>
-              </button>
-              <button type="button" class="btn btn-outline-custom position-relative" onclick='window.open("https:\/\/zealy.io/my-communities", "_blank")' >
-                Zealy
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
-                  <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"></path>
-                </svg>
-                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-                  <span class="visually-hidden">New alerts</span>
-                </span>
-              </button>
-              <button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target="#staticBackdrop">挖礦/節點/質押⛏️</button>
-              <button type="button" class="btn btn-outline-custom" onclick='location.href="Converter.html"'>加密貨幣轉換器⚡</button>
-              
-              <button type="button" class="btn btn-outline-custom" id="staticBackdropLabel" onclick="sendMessage()">暴力呼叫BaBy仔😠</button>
+  <main>
+    <header class="p-3 mb-3 border-bottom" style="background-color: #D0A2F7">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+          </a>
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><b><a href="baby.html" class="nav-link px-2 link-body-emphasis">空投清單</a></b></li>
+  
+          </ul>
+  
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <button type="button" class="btn btn-outline-custom position-relative" onclick='window.open("https:\/\/mail.google.com/mail/u/0/#inbox", "_blank")' >
+              Gmail
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+              </svg>
+            </button>
+
+            <button type="button" class="btn btn-outline-custom position-relative" onclick='window.open("https:\/\/x.com/home", "_blank")' >
+              Twitter
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+              </svg>
+            </button>
+            <button type="button" class="btn btn-outline-custom position-relative" onclick='window.open("https:\/\/discord.com/channels/@me", "_blank")' >
+              Discord
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
+              </svg>
+            </button>
+            <button type="button" class="btn btn-outline-custom" onclick='window.open("faucet.html", "_blank")'>水龍頭🚰</button>
             
-              <div class="toast-container position-fixed top-0 end-0 p-3">
-                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                  <div class="toast-header">
-                    <strong class="me-auto">暴力呼叫BaBy仔😠</strong>
-                    <small>now</small>
-                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                  </div>
-                  <div class="toast-body">
-                    BaBy仔用9秒9速度滾出來ing！
-                  </div>
+            <button type="button" class="btn btn-outline-custom position-relative" onclick='window.open("https:\/\/app.galxe.com/quest/explore/following", "_blank")'>
+              Galxe
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+                <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"></path>
+              </svg>
+              <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                <span class="visually-hidden">New alerts</span>
+              </span>
+            </button>
+            <button type="button" class="btn btn-outline-custom position-relative" onclick='window.open("https:\/\/zealy.io/my-communities", "_blank")' >
+              Zealy
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+                <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"></path>
+              </svg>
+              <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                <span class="visually-hidden">New alerts</span>
+              </span>
+            </button>
+            <button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target="#staticBackdrop">挖礦/節點/質押⛏️</button>
+            <button type="button" class="btn btn-outline-custom" onclick='location.href="Converter.html"'>加密貨幣轉換器⚡</button>
+            
+            <button type="button" class="btn btn-outline-custom" id="staticBackdropLabel" onclick="sendMessage()">暴力呼叫BaBy仔😠</button>
+          
+            <div class="toast-container position-fixed top-0 end-0 p-3">
+              <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <strong class="me-auto">暴力呼叫BaBy仔😠</strong>
+                  <small>now</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                 </div>
-              </div>
-            
-              <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel1">挖礦/節點/質押⛏️</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="m-4">
-                      <div class="card text-center">
-                          <div class="card-header">
-                              <ul class="nav nav-tabs card-header-tabs" id="myTab">
-                                  <li class="nav-item">
-                                      <a href="#home" class="nav-link active" data-bs-toggle="tab">挖礦</a>
-                                  </li>
-                                  <li class="nav-item">
-                                      <a href="#profile" class="nav-link" data-bs-toggle="tab">節點</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a href="#stake" class="nav-link" data-bs-toggle="tab">質押</a>
-                                </li>
-                  
-                              </ul>
-                          </div>
-                          <div class="card-body">
-                              <div class="tab-content">
-                                  <div class="tab-pane fade show active" id="home">
-                                    <div class="list-group">
-                                      <a href="https://app.getgrass.io/dashboard" class="list-group-item list-group-item-action list-group-item-danger" target="_blank">GetGrass</a>
-                                      <a href="https://worker.io.net/worker/devices" class="list-group-item list-group-item-action list-group-item-danger" target="_blank">Io.Net</a>
-                                        
-                                      
-                                      </div>
-                                  </div>
-                                  <div class="tab-pane fade" id="profile">
-                                    <div class="list-group">
-                                      <a href="https://www.gaianet.ai/node" class="list-group-item list-group-item-action list-group-item-info" target="_blank">Gaianet</a>
-                                      <a href="https://docs.nubit.org/nubit-da/run-a-node" class="list-group-item list-group-item-action list-group-item-info" target="_blank">Nubit</a>
-                                      <a href="https://medium.com/@smeb_y/%E7%A4%BE%E4%BA%A4%E9%A1%B9%E7%9B%AE-farcaster-%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B-faca1119a578" class="list-group-item list-group-item-action list-group-item-info" target="_blank">Farcaster</a>
-                                      <a href="https://medium.com/@smeb_y/telegram-%E7%BE%A4%E7%BB%84-https-t-me-niuwuriji-dced975d465d" class="list-group-item list-group-item-action list-group-item-info" target="_blank">Fuel</a>
-                                      <a href="https://harvester.pingpong.build/dashboard" class="list-group-item list-group-item-action list-group-item-info" target="_blank">Ping Pong</a>
-                                      <a href="https://rivalz.ai/dashboard/node-validate" class="list-group-item list-group-item-action list-group-item-info" target="_blank">Rivals</a>
-                                      <a href="https://sending-network.gitbook.io/sending.network/node-deployment-manuals/watchdog-node-deployment-tutorial/linux-deployment-tutorial" class="list-group-item list-group-item-action list-group-item-info" target="_blank">Sending me - WatchDog</a>
-                                      <a href="https://sending-network.gitbook.io/sending.network/node-deployment-manuals/edge-node-deployment-tutorial" class="list-group-item list-group-item-action list-group-item-info" target="_blank">Sending me - Edge</a>
-                                    </div>
-                                  </div>
-
-                                  <div class="tab-pane fade" id="stake">
-                                    <div class="list-group">
-                                    <a href="https://app.kamino.finance/" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Kamino</a>
-                                    <a href="https://app.marginfi.com/" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Marginfi</a>
-                                    <a href="https://app.mode.network/early/" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Mode</a>
-                                    <a href="https://app.sanctum.so/wonderland" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Sanctum</a>
-                                    <a href="https://www.stakeland.com/farming" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Stakeland</a>
-                                    <a href="https://infstones.com/points" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Infstones</a>
-                                    <a href="https://karak.network/karak-xp" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Karak</a>
-                                    </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-
-
-
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">好的</button>
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">關閉</button>
-                  </div>
+                <div class="toast-body">
+                  BaBy仔用9秒9速度滾出來ing！
                 </div>
               </div>
             </div>
-            </form>
+          
+            <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel1">挖礦/節點/質押⛏️</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="m-4">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs card-header-tabs" id="myTab">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link active" data-bs-toggle="tab">挖礦</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#profile" class="nav-link" data-bs-toggle="tab">節點</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a href="#stake" class="nav-link" data-bs-toggle="tab">質押</a>
+                              </li>
+                
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="home">
+                                  <div class="list-group">
+                                    <a href="https://app.getgrass.io/dashboard" class="list-group-item list-group-item-action list-group-item-danger" target="_blank">GetGrass</a>
+                                    <a href="https://blockjoker.org/home" class="list-group-item list-group-item-action list-group-item-danger" target="_blank">Blockjoker</a>
+                                    <a href="https://app.gradient.network/signup?code=S3X0IN" class="list-group-item list-group-item-action list-group-item-danger" target="_blank">Gradient</a>
+                                    <a href="https://app.nodepay.ai/register?ref=YbfaLiCftloRj6L" class="list-group-item list-group-item-action list-group-item-danger" target="_blank">Nodepay</a>
+                                     <a href="https://alphaos.net/point?invite=LSCGXC" class="list-group-item list-group-item-action list-group-item-danger" target="_blank">Alphaos Net</a>
+                                    <a href="https://app.chirpwireless.io/devices/tracker-mobile-app" class="list-group-item list-group-item-action list-group-item-danger" target="_blank">Chirp</a>
+                                    <a href="https://www.375.ai/products/go" class="list-group-item list-group-item-action list-group-item-danger" target="_blank">375go</a>
+                                    <a href="https://node.hyper.space/" class="list-group-item list-group-item-action list-group-item-danger" target="_blank">Hyper Space</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="profile">
+                                  <div class="list-group">
+                                     <a href="https://www.gaianet.ai/setting/nodes" class="list-group-item list-group-item-action list-group-item-info" target="_blank">Gaianet</a>
+                                        </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="stake">
+                                  <div class="list-group">
+                                  <a href="https://airdrop.walletconnect.network/" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Walletconnect</a>
+                                  <a href="https://app.kamino.finance/" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Kamino</a>
+                                  <a href="https://www.stakeland.com/farming" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Stakeland</a>
+                                  <a href="https://infstones.com/points" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Infstones</a>
+                                  <a href="https://app.initia.xyz/my" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Initia</a>
+                                  <a href="https://haedal.xyz/stake" class="list-group-item list-group-item-action list-group-item-success" target="_blank">Haedal</a>
+                                    
+                                    
+                                  
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
-      
-              <div class="dropdown text-end">
-                <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="May.png" alt="mdo" width="32" height="32" class="rounded-circle">
-                </a>
-                <ul class="dropdown-menu text-small">
-                  <li><a class="dropdown-item" href="index.html">Sign out</a></li>
-                </ul>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">好的</button>
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">關閉</button>
+                </div>
               </div>
+            </div>
+          </div>
+          </form>
+      
+          <div class="dropdown text-end">
+            <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="May.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small">
+              <li><a class="dropdown-item" href="index.html">Sign out</a></li>
+            </ul>
+          </div>
             </div>
           </div>
         </header>
@@ -195,170 +191,674 @@
 
 
 
-    <h2 class="text-center mt-5">
-        LuckyDog空投清單
+    <h2 class="text-center">
+        空投清單 
     </h2>
 
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Word Bank</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Word Generator</title>
+</head>
+<body>
+  <button class="btn btn-primary" id="generateWord">Generate Random Words</button>
+  <p>English Word: <span id="englishWord"></span><button  id="speakWord">Speak English Word</button></p>
+  <p>Chinese Word: <span id="chineseWord"></span></p>
+
+  <script>
+      document.getElementById('generateWord').addEventListener('click', function() {
+          // Fetch English word
+          fetch('https://random-word-api.herokuapp.com/word')
+              .then(response => response.json())
+              .then(data => {
+                  document.getElementById('englishWord').innerText = data[0];
+              })
+              .catch(error => {
+                  console.error('Error fetching the English word:', error);
+              });
+
+          // Fetch Chinese word
+          fetch('https://random-word-api.herokuapp.com/word?lang=zh')
+              .then(response => response.json())
+              .then(data => {
+                  document.getElementById('chineseWord').innerText = data[0];
+              })
+              .catch(error => {
+                  console.error('Error fetching the Chinese word:', error);
+              });
+      });
+
+      document.getElementById('speakWord').addEventListener('click', function() {
+          const englishWord = document.getElementById('englishWord').innerText;
+          if (englishWord) {
+              const utterance = new SpeechSynthesisUtterance(englishWord);
+              speechSynthesis.speak(utterance);
+          } else {
+              alert('Please generate an English word first.');
+          }
+      });
+  </script>
+</body>
+</html>
+
+
+    </p>
+  </div>
+</div>
+
     <div class="container mt-5">
-      <div class="table-responsive">
-        <table class="table table-bordered table-striped table-hover text-center align-middle">
-          <thead class="table-dark">
-            <tr>
-              <th>項目名稱</th>
-              <th>連結</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>AltLayer Altitude Phase IV: Autonomous Worlds by Altlayer | Galxe</td>
-              <td><a href="https://galxe.com/altlayer/campaign/GCuPiULrKh" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>空投清單</td>
-              <td><a href="https://2246250622.github.io/Airdrop-babydog-/baby.html" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>Zealy - 加入運動</td>
-              <td><a href="https://zealy.io/c/ontropy-9746/questboard" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>revije</td>
-              <td><a href="https://revoke.cash/zh/address/0xD71a75Ac7D44f492d6b12E63C88e48B285Da8215/signatures?chainId=1101" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>Bybit</td>
-              <td><a href="https://www.bybit.com/zh-TW/" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>Forge - Home</td>
-              <td><a href="https://forge.gg/home" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>Robots Farm</td>
-              <td><a href="https://robots.farm/" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>引誘任務</td>
-              <td><a href="https://www.intract.io/alpha-hub/quest/653257c2dd1b73a91eb4860e" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>SendingMe | 0xlareina.eth</td>
-              <td><a href="https://chat.sending.me/#/room/!oSQuglstu4um4VYn-@sdn_d71a75ac7d44f492d6b12e63c88e48b285da8215:d71a75ac7d44f492d6b12e63c88e48b285da8215" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>ZeroLend - Open Source Liquidity Protocol on Layer 2s</td>
-              <td><a href="https://app.zerolend.xyz/" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>梅克爾</td>
-              <td><a href="https://app.mercle.xyz/" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>Introducing Uniswap v3</td>
-              <td><a href="https://blog.uniswap.org/uniswap-v3" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>MATR1X</td>
-              <td><a href="https://matr1x.io/max-event" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>Expedition: The Mitosis LRT Campaign</td>
-              <td><a href="https://expedition.mitosis.org/dashboard" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>Quests - Layer3</td>
-              <td><a href="https://layer3.xyz/quests" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>Side Quests</td>
-              <td><a href="https://sidequest.rcade.game/quests" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>Curvance - #TheUnlockening</td>
-              <td><a href="https://app.curvance.com/" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>Season 1: The Genesis Jungle</td>
-              <td><a href="https://www.morphl2.io/points/genesis_jungle/" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>Initia App</td>
-              <td><a href="https://app.testnet.initia.xyz/xp/jennie" target="_blank">點擊這裡</a></td>
-            </tr>
-            <tr>
-              <td>Quest SendingMe</td>
-              <td><a href="https://quest.sending.me/" target="_blank">點擊這裡</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+        <div class="accordion" id="ao-accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" 
+                    id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" 
+                            type="button" 
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" 
+                            aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            每日一擼<span class="badge bg-secondary"> New</span>
+                    </button>
+                </h2>
+
+                <div id="panelsStayOpen-collapseOne" 
+                     class="accordion-collapse collapse show"
+                     aria-labelledby="panelsStayOpen-headingOne">
+                     
+                    <div class="accordion-body">
+
+                      <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">普通</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Monad</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                          <div class="container mt-3">
+                            <table class="table table-bordered">
+                              <tbody>
+
+                                <H4><b><u>多號</u></b></H4>
+                                <tr >
+                                  
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://app.nodepay.ai/missions">Nodepay</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://app.soul.io/?referredBy=F7ZVJ">Soul</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://node.securitylabs.xyz/">Securitylabs</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://earn.taker.xyz?start=F00K8">Taker</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://sowing.taker.xyz/?start=ZXVECA80">Sowing</a>
+                                  </td>
+                                  
+                                  
+                                  
+                                </tr>
+
+                                <tr>
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://ofc.onefootball.com/s2?referral=aAvpXmvl1Ta3">Onefootball</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://www.gaianet.ai/reward-summary">Gaianet</a>
+                                  </td>
+                            
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://bytenova.ai/rewards?invite_code=tUVIRpapC">Bytenova</a>
+                                  </td>
+
+                                  </tr>
+
+                                  <tr>
+                                 
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://app.saharalabs.ai/#/individualLabeler">Saharalabs</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://legends.saharalabs.ai/">legends</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://www.magicnewton.com/portal/rewards">Magicnewton</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://dapp.fractionai.xyz/">Fractionai</a>
+                                  </td>
+                                  </tr>
+
+                                  <tr>
+                                  <td>  
+                                      <a style="display:block;" target="_blank" href="https://bytenova.ai/rewards?invite_code=tUVIRpapC">Bytenova</a>
+                                  </td>
+ 
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://klokapp.ai?referral_code=VTGBH6FF">Mira</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://agents.testnet.gokite.ai/">Gokite</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://chat.sentient.xyz">Sentient</a>
+                                  </td>
+                                </tr>
+
+                               
+                                
+
+                              </tbody>
+                            </table>
+                        </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                          <div class="container mt-3">
+                            <table class="table table-bordered">
+                              <tbody>
+                                <tr >
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://testnet.monad.xyz/">Monad Faucet</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://monad.fantasy.top/shop">Monad Fantasy</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://monad.talentum.id/">Monad Talentum</a>
+                                  </td>
+
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://www.monadroids.xyz/staking">Monadroids</a>
+                                  </td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+                        </div>
+                        </div>
+
+                      </div>
+                       
+                        
+                        <div class="container mt-3">
+                            <table class="table table-bordered">
+                              <tbody>
+                                <H4><b><u>單號</u></b></H4>
+                                <tr >
+        
+                                    <td>  
+                                      <a style="display:block;" href="https://sidequest.rcade.game/quests" target="_blank">Sidequest</a>
+                                    </td>
+
+                                    <td>  
+                                      <a style="display:block;" target="_blank" href="https://chat.chainopera.ai/">Chainopera</a>
+                                    </td>      
+
+                                    <td>  
+                                      <a style="display:block;" target="_blank" href="https://testnet.openledger.xyz/dashboard">Openledger</a>
+                                    </td>
+
+                                    <td>  
+                                      <a style="display:block;" target="_blank" href="https://early.prometheansaga.com/home">Xion</a>
+                                    </td>
+
+                                    <td>  
+                                      <a style="display:block;" target="_blank" href="https://testnet.humanity.org/dashboard">Humanity</a>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+         
+
+                                    <td>  
+                                      <a style="display:block;" target="_blank" href="https://atlantia.helalabs.com/campaign/hela">Helalabs</a>
+                                    </td>
+
+                                    <td>  
+                                      <a style="display:block;" target="_blank" href="https://forge.gg/home">Forge</a>
+                                    </td>
+
+                                  
+                                 
+                                </tr>
+
+
+                                <tr>
+
+                               
+                                  <td>  
+                                    <a style="display:block;" target="_blank" href="https://hub.beamable.network/ref/27ZXWB9F">Beamable</a>
+                                  </td>
+
+                         
+                                  </tr>
+
+                                  <tr>
+                                  </tr>
+
+                            
+                              </tbody>
+                            </table>
+                          </div>
+
+
+
+
+                          <div class="container mt-3">
+                            <table class="table table-bordered">
+                              <tbody>
+                                <H4><b><u>日常Galxe</u></b></H4>
+                                <tr>
+                              
+
+
+                                <td>
+                                  <a style="display:block;" target="_blank" href="https://app.galxe.com/quest/SaharaAI/GCNLYtpFM5">Galxe - SaharaAI</a>
+                                </td>
+
+                
+                              </tr>
+                              </tbody>
+                            </table>
+                          </div>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" 
+                    id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" 
+                            type="button" 
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" 
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            測試網
+                    </button>
+                </h2>
+
+                <div id="panelsStayOpen-collapseTwo" 
+                     class="accordion-collapse collapse"
+                     aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <table class="table table-bordered">
+                            <tbody>
+
+
+                          
+                              <tr>
+                                <td>Analog</td>
+                                <td>  
+                                  <a style="display:block;" href="https://www.swisstronik.com/testnet2/dashboard#" target="_blank">Swisstronik</a>
+                              </td>
+                              </tr>
+
+
+
+                            
+                              <tr>
+                                <td>Agentcoin</td>
+                                <td>  
+                                  <a style="display:block;" href="https://www.agentcoin.tv/waitlist" target="_blank">https://www.agentcoin.tv/waitlist</a>
+                              </td>
+                              </tr>
+
+
+                              <tr>
+                                <td>Spore</td>
+                                <td>  
+                                  <a style="display:block;" href="https://spore.ooo/mint" target="_blank">https://spore.ooo/mint</a>
+                              </td>
+                              </tr>
+
+                            
+
+                
+                              <tr>
+                                <td>Particle</td>
+                                <td>  
+                                  <a style="display:block;" href="https://pioneer.particle.network?inviteCode=DH8DIU" target="_blank">https://pioneer.particle.network?inviteCode=DH8DIU</a>
+                              </td>
+                              </tr>
+
+                            <tr>
+                              <td>Corn</td>
+                              <td>  
+                                <a style="display:block;" href="https://usecorn.com/app" target="_blank">https://usecorn.com/app</a>
+                            </td>
+                            </tr>
+
+
+                            
+                              <tr>
+                                <td>Plumenetwork</td>
+                                <td>  
+                                  <a style="display:block;" href="https://miles.plumenetwork.xyz/daily-checkin" target="_blank">https://miles.plumenetwork.xyz/daily-checkin</a>
+                              </td>
+                              </tr>
+
+
+                                <tr>
+                                  <td>Castile</td>
+                                  <td>  
+                                    <a style="display:block;" href="https://castile.world/#/task" target="_blank">https://castile.world/#/task</a>
+                                </td>
+                                </tr>
+             
+
+                              <tr>
+                                <td>Turnkey</td>
+                                <td>  
+                                  <a style="display:block;" href="https://app.turnkey.com/dashboard/welcome" target="_blank">https://app.turnkey.com/dashboard/welcome</a>
+                              </td>
+                              </tr>
+
+                              <tr>
+                                <td>Ordzaar</td>
+                                <td>  
+                                  <a style="display:block;" href="https://ordzaar.com/rewards/s01p1" target="_blank">https://ordzaar.com/rewards/s01p1</a>
+                              </td>
+                              </tr>
+
+
+
+                            <tr>
+                              <td>Matr1x</td>
+                              <td>  
+                                <a style="display:block;" href="https://matr1x.io/max-event" target="_blank">https://matr1x.io/max-event</a>
+                            </td>
+                            </tr>
+
+                            <tr>
+                              <td>Counterfire</td>
+                              <td>  
+                                <a style="display:block;" href="https://counterfire.games/assets" target="_blank">https://counterfire.games/assets</a>
+                            </td>
+                            </tr>
+
+
+
+                            <tr>
+                              <td>Initia</td>
+                              <td>  
+                                <a style="display:block;" href="https://app.testnet.initia.xyz/xp/" target="_blank">https://app.testnet.initia.xyz/xp/</a>
+                            </td>
+                            </tr>
+
+
+                       
+                            <tr>
+                              <td>Lingoislands</td>
+                              <td>  
+                                <a style="display:block;" href="https://lingoislands.com/degen-island" target="_blank">https://lingoislands.com/degen-island</a>
+                            </td>
+                            </tr>
+
+            
+                             
+                           
+                                    
+                                <tr>
+                                    <td>Tea</td>
+                                    <td>  
+                                      <a style="display:block;" href="https://app.tea.xyz/" target="_blank">https://app.tea.xyz/</a>
+                                  </td>
+                                  </tr>
+                              
+
+                                    <tr>
+                                        <td>Tabi</td>
+                                        <td>  
+                                          <a style="display:block;" href="https://tabi.lol/" target="_blank">https://tabi.lol/</a>
+                                      </td>
+                                      </tr>
+                                 
+
+                                        <tr>
+                                            <td>Parallel testnet</td>
+                                            <td>  
+                                              <a style="display:block;" href="https://app-staging.parallel.fi/parallel_testnet/apps/airdrop" target="_blank">https://app-staging.parallel.fi/parallel_testnet/apps/airdrop</a>
+                                          </td>
+                                          </tr>
+                               
+
+
+                                        
+
+                                                <tr>
+                                                    <td>Aiarena</td>
+                                                    <td>  
+                                                      <a style="display:block;" href="https://hub.aiarena.io/modules/refer" target="_blank">https://hub.aiarena.io/modules/refer</a>
+                                                  </td>
+                                                  </tr>
+                                             
+
+                                                              
+
+                                                                <tr>
+                                                                    <td>Curvance</td>
+                                                                    <td>  
+                                                                      <a style="display:block;" href="https://app.curvance.com/dashboard" target="_blank">https://app.curvance.com/dashboard</a>
+                                                                  </td>
+                                                                  </tr>
+                                                         
+
+                                                      
+                                                                  
+
+                                                                        <tr>
+                                                                            <td>Nubit</td>
+                                                                            <td>  
+                                                                              <a style="display:block;" href="https://alpha.nubit.org/#/" target="_blank">https://alpha.nubit.org/#/</a>
+                                                                          </td>
+                                                                          </tr>
+                                                                      
+
+                                                                            <tr>
+                                                                              <td>Cyclenetwork</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="https://points.cyclenetwork.io/airdrop" target="_blank">https://points.cyclenetwork.io/airdrop</a>
+                                                                            </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                              <td>SuccinctLabs</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="" target="_blank"></a>
+                                                                            </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                              <td>AlloraNetwork</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="" target="_blank"></a>
+                                                                            </td>
+                                                                            </tr>
+
+                                                                  
+                                                                            <tr>
+                                                                              <td>Fhenix</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="https://docs.fhenix.zone/" target="_blank">https://docs.fhenix.zone/</a>
+                                                                            </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                              <td>Warpcast</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="https://warpcast.com/" target="_blank">https://warpcast.com/</a>
+                                                                            </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                              <td>Circuit</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="https://testnet.circuit.money/kibble?code=ZlWaL" target="_blank">https://testnet.circuit.money/kibble?code=ZlWaL</a>
+                                                                            </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                              <td>Nesa</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="https://beta.nesa.ai/" target="_blank">https://beta.nesa.ai/</a>
+                                                                            </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                              <td>Nillion</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="https://nillpill.nillion.com/personalizedai" target="_blank">https://nillpill.nillion.com/personalizedai</a>
+                                                                            </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                              <td>Zoth</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="https://rewards.zoth.io/onchain-tasks#social-tasks" target="_blank">https://rewards.zoth.io/onchain-tasks#social-tasks</a>
+                                                                            </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                              <td>Babylon</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="https://btcstaking.babylonchain.io/" target="_blank">https://btcstaking.babylonchain.io/</a>
+                                                                            </td>
+                                                                            </tr>
+
+                                                                   
+
+                                                                            <tr>
+                                                                              <td>Allo</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="https://allo.xyz/rwards#points" target="_blank">https://allo.xyz/rwards#points</a>
+                                                                            </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                              <td>Thebeacon</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="https://nfq.thebeacon.gg/?referral=BaByJai0425" target="_blank">https://nfq.thebeacon.gg/?referral=BaByJai0425</a>
+                                                                            </td>
+                                                                            </tr>
+                                                                            
+                                                                            <tr>
+                                                                              <td>Aidx</td>
+                                                                              <td>  
+                                                                                <a style="display:block;" href="https://aidx.exchange/#/perpetual_trading" target="_blank">https://aidx.exchange/#/perpetual_trading</a>
+                                                                            </td>
+                                                                            </tr>
+                                                                         
+                        
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+        
+
+        </div>
     </div>
 
 
 
-  <script>
-    // Get all the rows in the table
-const rows = document.querySelectorAll('td');
-
-// Add a click event listener to each row
-rows.forEach(row => {
-  row.addEventListener('click', () => {
-    // Change the background color of the row to green
-    row.style.backgroundColor = 'LightGreen';
-  });
-});
-
-// Add a click event listener to each row
-rows.forEach(row => {
-  row.addEventListener('click', () => {
-    // Add a class to the row to indicate that it has been clicked
-    row.classList.add('clicked');
-  });
-});
-
-</script>
-     <script>
-        function sendMessage() {
-            const webhookUrl = 'https://discord.com/api/webhooks/1104429694356557925/HJj5bgAGMmtvr6QbZP-kYKFCGbaoDc2x5gQL2n6E-dd_m-WaJ5S9PXf4yb6kL7mqelQh'; // Replace with your actual webhook URL
-
-            const data = {
-                content: '<@582642394428866647> 滾出來!', // Your message here
-                username: 'Luckydog', // Optional: Set a custom username
-                avatar_url: 'https://cdn.discordapp.com/attachments/1114568807588057280/1249414047896440883/2hYJiL9S_400x400.png?ex=66673702&is=6665e582&hm=69b8e259e904bcd2e091f1864116d4a77d2e595b8de81957e4cf87ffb09899e1&', // Optional: Set a custom avatar image
-            };
-
-            fetch(webhookUrl, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data),
-            })
-            .then(response => {
-                if (response.ok) {
-                    console.log('Message sent successfully!');
-                } else {
-                    console.error('Error sending message:', response.statusText);
-                }
-            })
-            .catch(error => {
-                console.error('Error sending message:', error);
-            });
-        }
-    </script>
-
     <script>
+      // Get all the rows in the table
+  const rows = document.querySelectorAll('td');
+  
+  // Add a click event listener to each row
+  rows.forEach(row => {
+    row.addEventListener('click', () => {
+      // Change the background color of the row to green
+      row.style.backgroundColor = 'LightGreen';
+    });
+  });
+  
+  // Add a click event listener to each row
+  rows.forEach(row => {
+    row.addEventListener('click', () => {
+      // Add a class to the row to indicate that it has been clicked
+      row.classList.add('clicked');
+    });
+  });
+  
+  </script>
+       <script>
+          function sendMessage() {
+              const webhookUrl = 'https://discord.com/api/webhooks/1104429694356557925/HJj5bgAGMmtvr6QbZP-kYKFCGbaoDc2x5gQL2n6E-dd_m-WaJ5S9PXf4yb6kL7mqelQh'; // Replace with your actual webhook URL
+  
+              const data = {
+                  content: '<@582642394428866647> 滾出來!', // Your message here
+                  username: 'Luckydog', // Optional: Set a custom username
+                  avatar_url: 'https://cdn.discordapp.com/attachments/1114568807588057280/1249414047896440883/2hYJiL9S_400x400.png?ex=66673702&is=6665e582&hm=69b8e259e904bcd2e091f1864116d4a77d2e595b8de81957e4cf87ffb09899e1&', // Optional: Set a custom avatar image
+              };
+  
+              fetch(webhookUrl, {
+                  method: 'POST',
+                  headers: {
+                      'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify(data),
+              })
+              .then(response => {
+                  if (response.ok) {
+                      console.log('Message sent successfully!');
+                  } else {
+                      console.error('Error sending message:', response.statusText);
+                  }
+              })
+              .catch(error => {
+                  console.error('Error sending message:', error);
+              });
+          }
+      </script>
+
+      <script>
 const toastTrigger = document.getElementById('staticBackdropLabel')
 const toastLiveExample = document.getElementById('liveToast')
 
 if (toastTrigger) {
 const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
 toastTrigger.addEventListener('click', () => {
-toastBootstrap.show()
+  toastBootstrap.show()
 })
 }
-      </script>
-  
+        </script>
+    
 </body>
 
 </html>
